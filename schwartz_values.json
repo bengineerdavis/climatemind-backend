@@ -1,0 +1,73 @@
+{
+    "high_order":[
+        "opennness",
+        "self-enhancement",
+        "conservation",
+        "self-transcendence"],
+    "sv10":[
+        "self-direction",
+        "stimulation",
+        "hedonism",
+        "achievement",
+        "power",
+        "security",
+        "conformity",
+        "tradition",
+        "benevolence",
+        "universalism"],
+    "sv19":[
+        "power dominance", 
+        "power resources",
+        "security personal", 
+        "security societal",
+        "self-direction autonomy of thought",
+        "self-direction autonomy of action",
+        "conformity interpersonal",
+        "conformity rules",
+        "benevolence dependability",
+        "benevolence caring",
+        "universalism nature",
+        "universalism concern",
+        "universalism tolerance",
+        "tradition", 
+        "hedonism",    
+        "stimulation",
+        "achievement",
+        "face",
+        "humility"],
+    "map_sv10_sv20":{
+        "power":["power dominance", 
+                 "power resources"],
+        "security":["security personal", 
+                    "security societal"],
+        "self-direction":["self-direction autonomy of thought",
+                          "self-direction autonomy of action"],
+        "conformity":["conformity interpersonal",
+                      "conformity rules"],
+        "benevolence":["benevolence dependability",
+                       "benevolence caring"],  
+        "universalism":["universalism nature",
+                        "universalism concern",
+                        "universalism tolerance"],
+        "tradition":[], 
+        "hedonism":[],    
+        "stimulation":[],
+        "achievement":[]
+    },
+    "map_svho_sv10":{
+        "opennness":[
+            "self-direction",
+            "stimulation",
+            "hedonism"],
+        "self-enhancement":[
+            "hedonism",
+            "achievement",
+            "power"],
+        "conservation":[
+            "security",
+            "conformity",
+            "tradition"],
+        "self-transcendence":[
+            "benevolence",
+            "universalism"]}
+}
