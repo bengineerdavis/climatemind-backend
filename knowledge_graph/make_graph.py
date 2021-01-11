@@ -303,6 +303,7 @@ def set_edge_properties(G):
         #     "properties",
         # )
 
+    breakpoint()
     return list(to_remove)
 
 
@@ -324,6 +325,7 @@ def remove_edge_properties_from_nodes(G, to_remove):
             for node in list(G.nodes[node]["properties"][prop])
             if node not in list(to_delete)
         ]
+        breakpoint()
         # DM: uh... won't `node not in list(to_delete)` always evaluate to false? What was meant to be here instead?
 
 
